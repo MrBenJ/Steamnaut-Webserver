@@ -5,7 +5,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'steamnaut.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
+    url(r'^polls/', include('videos.urls')),
     url(r'^admin/', include(admin.site.urls)),
-  # url(r'^index/', include(index.html?))
+
 )
